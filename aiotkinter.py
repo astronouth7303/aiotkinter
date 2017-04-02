@@ -7,7 +7,7 @@ import tkinter
 import sys
 
 if sys.platform == 'win32':
-    raise ImportError('%s is not available on your platform'.format(__name__))
+    raise ImportError('{} is not available on your platform'.format(__name__))
 
 class _TkinterSelector(selectors._BaseSelectorImpl):
 
